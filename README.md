@@ -6,16 +6,10 @@
 sample file included in the github repo. 
 
 * Setup the virtual environment on your local machine using pipenv. 
-`pipenv install`
+`pipenv install`--dev
 
 Note- If you dont have pipenv installed on you local machine, first make sure to install it using - 
 `sudo pip install pipenv`
 
 * Once the virtualenv is installed, you can run the script using command- 
-`pipenv run python src/player_selection_dream11.py`
-
-
-## TODO -
-* typechecks
-* use balck to format the code.
-* accept filename as an argument. 
+`pipenv run python src/player_selection_dream11.py`--player_data_filepath <absolute_data_filepath>
