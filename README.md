@@ -13,4 +13,4 @@ Note- If you dont have pipenv installed on you local machine, first make sure to
 
 * Once the virtualenv is installed, you can run the script using command- 
 
-`pipenv run python src/player_selection_dream11.py`--player_data_filepath <absolute_data_filepath>
+`pipenv run python src/player_selection_dream11.py --player_data_filepath <absolute_data_filepath>`
