@@ -141,9 +141,10 @@ def _add_constraints(player_df: pd.DataFrame, optimization_prob: p.LpProblem):
     return optimization_prob
 
 
-def caller(
-    filepath: str = os.path.join(".", "data", "dream11_performance_data.csv")
-) -> pd.DataFrame:
+def caller( filepath: str ) -> pd.DataFrame:
+
+    if not filepath:
+        filepath = os.path.join(".", "data", "dream11_performance_data.csv")
 
     if not os.path.exists(filepath):
         logger.error(
