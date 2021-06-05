@@ -3,3 +3,5 @@
 
 # ignore LP problem
 *.lp
+
+Pipfile.lock
